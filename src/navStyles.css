@@ -1,0 +1,50 @@
+.navigate {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    border-right: solid rgb(110, 88, 71) 2px;
+    background-image: url(sources/mehdi-messrro-Uo7M4171Hsg-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    
+    
+}
+
+
+
+.navList {
+    width: 50%;
+    max-width: 50%;
+    padding-top: 20px;
+
+    
+}
+.navList li {
+    list-style: none;
+    width: 100%;
+    padding: 10px;
+    background-color: antiquewhite;
+    box-shadow: inset 0px 0px 10px 10px rgb(240, 219, 191), 0px 0px 3px 3px rgb(110, 88, 71);
+    margin: 60px;
+    max-height: 20%;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(80, 57, 57);
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+
+
+li a:hover {
+    text-shadow: 1px 0px 0px black;
+}

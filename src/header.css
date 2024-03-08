@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+    background-color:;
+    font-size: 1em;
+}
+
+.header img {
+    width: 20%;
+    margin-left: 100px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+    font-size: 1em;
+    
+}
+
+.call {
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;;
+    border-bottom: 2px solid rgb(110, 88, 71);
+    
+    margin-right: 100px;
+    background-color: rgb(115, 176, 242);
+    color: rgb(64, 63, 63)
+}
+
+.emailQuote {
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;;
+    border-bottom: 2px solid rgb(110, 88, 71);
+    margin-right: 100px;
+    background-color: rgb(105, 213, 109);
+    color: rgb(64, 63, 63);
+    cursor: pointer;
+}
+.emailQuote:hover {
+ background-color: rgb(126, 255, 131);
+}

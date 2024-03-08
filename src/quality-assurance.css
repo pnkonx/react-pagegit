@@ -1,0 +1,31 @@
+.qualityAssurance {
+    display: none;
+    flex-direction: column;
+    align-items: start;
+    
+    width: 70%;
+    padding: 40px;
+    background-color: rgb(242, 211, 183);
+    color:rgb(80, 57, 57);
+    font-size: 1em
+}
+
+.qualityAssurance h2 {
+    position: absolute;
+    margin: 40px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid rgb(110, 88, 71);
+    left: 50%;
+}
+.qualityAssurance h3 {
+    text-decoration: underline;
+}
+
+.qaSections {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 100%;
+    
+}

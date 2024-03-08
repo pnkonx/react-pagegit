@@ -1,0 +1,32 @@
+.services {
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 70%;
+    padding: 40px;
+    right: 0;
+    font-size: 1em;
+    background-color: rgb(242, 211, 183);
+    color:rgb(80, 57, 57);
+    text-align: center;
+}
+
+.serviceImages {
+    
+    width: 40%;
+    border: 1px solid rgb(110, 88, 71);
+    border: 1px solid rgb(110, 88, 71);
+}
+
+.serviceSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 320px;
+    background-color:white;
+    border: 1px solid rgb(80, 57, 57);
+    box-shadow: 0 0 10px 5px;
+    text-align: center;
+}

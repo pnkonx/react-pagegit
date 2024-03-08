@@ -1,0 +1,67 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 40px;
+    background-color: rgb(242, 211, 183);
+    color:rgb(80, 57, 57);
+    font-size: 1.3em;
+    
+}
+
+.contact h2 {
+    margin: 40px;
+    left: 55%;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.contactInfoDiv {
+    display:flex;
+    flex-direction: column;
+    height: 150px;
+    justify-content: space-between
+
+}
+
+.inputSection {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    
+}
+
+.contactOptions {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    margin-top: 15%;
+    justify-content: space-between;
+    
+    
+}
+
+form {
+    display: flex;
+    width: 50%;
+    height: 200px;
+    justify-content: space-between;
+    flex-direction: column;
+    border-left: 2px solid rgb(80, 57, 57);
+    padding-left: 20px;
+    
+}
+
+.requestQuote {
+    width: 50%;
+    position: relative;
+    left: 25%;
+    padding: 5px;
+    background-color: rgb(105, 213, 109);
+    color: rgb(64, 63, 63);
+    border-radius: 5px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(110, 88, 71);
+}
