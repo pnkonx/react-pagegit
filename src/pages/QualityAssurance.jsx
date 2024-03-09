@@ -1,6 +1,6 @@
-import './quality-assurance.css'
+import 'src/pages/quality-assurance.css'
 
-export function QualityAssurance() {
+export default function QualityAssurance() {
     return (
         <>
           <div class="qualityAssurance">

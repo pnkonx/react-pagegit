@@ -1,6 +1,6 @@
-import './about.css'
+import 'src/pages/about.css'
 
-export function About() {
+export default function About() {
     return(
         <>
           <div class="about">

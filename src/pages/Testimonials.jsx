@@ -1,6 +1,6 @@
-import './testimonials.css'
+import 'src/pages/testimonials.css'
 
-export function Testimonials () {
+export default function Testimonials () {
     return (
         <>
         <div class="testimonials">

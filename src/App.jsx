@@ -1,25 +1,29 @@
 import { Navigation } from "./Navigation";
 import { Header } from "./Header";
 import { Footer } from './Footer';
-import { About } from './About';
-import { Services } from './Services';
-import { Testimonials } from './Testimonials';
-import { QualityAssurance } from './QualityAssurance';
-import { Contact } from './Contact'; 
+/*import { About } from './pages/About';
+import { Services } from './pages/Services';
+import { Testimonials } from './pages/Testimonials';
+import { QualityAssurance } from './pages/QualityAssurance';
+import { Contact } from './pages/Contact'; */
+
+
+
 
 
 export default function App() {
+
   return (
    <>
    <Header />
    
     <div class="mainDisplay">
       <Navigation />
-      <About />
+     {/*} <About />
       <Services />
       <Testimonials />
       <QualityAssurance />
-      <Contact /> 
+      <Contact />*/} 
     </div>
   <Footer />
    </>

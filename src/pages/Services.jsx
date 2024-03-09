@@ -1,6 +1,6 @@
-import './services.css'
+import 'src/pages/services.css'
 
-export function Services() {
+export default function Services() {
     return (
         <div class="services">
             <div class="serviceSection">

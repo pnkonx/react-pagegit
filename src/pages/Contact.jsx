@@ -1,6 +1,6 @@
-import './contact.css'
+import 'src/pages/contact.css'
 
-export function Contact() {
+export default function Contact() {
     return(
         <div class="contact">
             <h2>Contact Us</h2>

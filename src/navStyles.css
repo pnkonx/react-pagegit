@@ -34,6 +34,7 @@
     max-height: 20%;
     margin-left: 0px;
     cursor: pointer;
+    color: rgb(80, 57, 57);
 }
 
 li a {
@@ -43,8 +44,22 @@ li a {
     font-size: 1.5em;
 }
 
+li a:active {
+    color: antiquewhite;
+    
+}
 
 
-li a:hover {
-    text-shadow: 1px 0px 0px black;
+
+.navList li:hover {
+    text-shadow: 1px 0px 0px rgb(80, 57, 57);
+    
+}
+
+.navList li:active {
+    background-color: rgb(110, 88, 71);
+    letter-spacing: .1rem;
+    text-shadow: .5px 0px 0px antiquewhite;
+    box-shadow: inset 0px 0px 10px 10px rgb(80, 57, 57);
+    
 }
